@@ -1,4 +1,4 @@
-print("Hello user")
+print("Hello Darsh")
 
 print("8-4 = ", 8-4)
 print(8 - 4)
@@ -44,7 +44,16 @@ print("Saving in a year = ", saving_in_a_year)
 
 the_tkt = 1500
 dsc = 100
-print("tkt cost per year", (the_tkt-dsc)*365)
+print("tkt cost per year", the_tkt - dsc )
 
-print(1500*6)
+print("darsh_has_10kg_apples")
+print("3kg_apples_were_rotten")
+print("but_he_lived_alone_so_he_decided_to_more_5kg"
+      "-so_total_he_returned_8kg")
+print("10-8")
+
+print(10-3-4+4+8-2+2-4)
+
+print(10-3-4+4+8-2+2-4)
+
 
