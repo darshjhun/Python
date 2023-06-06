@@ -15,13 +15,13 @@ print(((5 + 30) * 20) / 10)
 
 print(5 + 30 * 20 / 10)
 
-mango_price = 90
+mango_price = 900
 mango_weight = 7
 total = mango_price * mango_weight
 
 print("Total=", total)
 # print("hello comment")
-apple_price = mango_price
+apple_price = mango_price - 20
 apple_weight = 10
 
 print("Total Apple cost:", apple_price*apple_weight)
