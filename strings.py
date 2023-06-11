@@ -26,3 +26,7 @@ subject = "ICT"
 
 # I scored 100000000 points in ICT
 print("I scored", myscore, "points in", subject)
+print("I scored %s points in %s" %( myscore,subject))
+
+nums = 'What did the number %s say to the number %s? Nice belt!!'
+print(nums % (0,8))
