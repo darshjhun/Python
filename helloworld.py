@@ -16,7 +16,7 @@ print(((5 + 30) * 20) / 10)
 print(5 + 30 * 20 / 10)
 
 mango_price = 900
-mango_weight = 7
+mango_weight = 10
 total = mango_price * mango_weight
 
 print("Total=", total)
@@ -59,3 +59,10 @@ print(10-3-4+4+8-2+2-4)
 print('hi')
 
 
+1/14736
+
+cupcakes_made=520
+cupcakes_spoilt=12
+cost_of_each_cupcake=25
+mon_earned_on_day1=(cupcakes_made-cupcakes_spoilt)*cost_of_each_cupcake
+print(mon_earned_on_day1)
