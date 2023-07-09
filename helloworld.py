@@ -66,3 +66,15 @@ cupcakes_spoilt=12
 cost_of_each_cupcake=25
 mon_earned_on_day1=(cupcakes_made-cupcakes_spoilt)*cost_of_each_cupcake
 print(mon_earned_on_day1)
+
+cupcakes_made=100
+cupcakes_spoilt=5
+cost_of_each_cupcake=25
+mon_earned_on_day2=(cupcakes_made-cupcakes_spoilt)*cost_of_each_cupcake
+print(mon_earned_on_day2)
+
+cupcakes_made=130
+cupcakes_spoilt=0
+cost_of_each_cupcake=25
+mon_earned_on_day3=(cupcakes_made-cupcakes_spoilt)*cost_of_each_cupcake
+print(mon_earned_on_day3)
