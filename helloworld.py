@@ -68,13 +68,27 @@ mon_earned_on_day1=(cupcakes_made-cupcakes_spoilt)*cost_of_each_cupcake
 print(mon_earned_on_day1)
 
 cupcakes_made=100
-cupcakes_spoilt=5
+cupcakes_spoilt=0
 cost_of_each_cupcake=25
 mon_earned_on_day2=(cupcakes_made-cupcakes_spoilt)*cost_of_each_cupcake
 print(mon_earned_on_day2)
 
 cupcakes_made=130
-cupcakes_spoilt=0
+cupcakes_spoilt=5
 cost_of_each_cupcake=25
 mon_earned_on_day3=(cupcakes_made-cupcakes_spoilt)*cost_of_each_cupcake
 print(mon_earned_on_day3)
+
+#My name is Darsh
+
+print("783-567=",783-567)
+
+first_name='Darsh'
+last_name='Jhunjhunwal'
+print("Welcome",first_name,last_name)
+
+first_name="Darsh"
+surname="Jhunjhunwal"
+age=7
+string_text="%s %s is %s years old"
+print(string_text%(first_name,surname,age))
