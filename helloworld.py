@@ -135,5 +135,9 @@ multiply(20,30,40)
 # 20*30*1=600
 # 20*30*10=6000
 
-multiply(9999999999999999999999999999999999999999999999,9999999999999999999999999999999999999999999999999999999999,999999999999999999999999999999999999999999999999999999)
 
+friend_names=['Akshaj sinha','Priya jhunjhunwal','Chandan jhunjhunwal','Shree','Aayush']
+friend_age=[7,10,37,7,7]
+print(friend_names)
+print(friend_names[3])
+print("In 13 years ,%s will be %s years old"%(friend_names[0],friend_age[0]+13))
