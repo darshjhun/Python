@@ -90,5 +90,20 @@ print("Welcome",first_name,last_name)
 first_name="Darsh"
 surname="Jhunjhunwal"
 age=7
-string_text="%s %s is %s years old"
+string_text="%s %s is %s years old\n"
 print(string_text%(first_name,surname,age))
+
+string_text=first_name, surname, age
+print(string_text)
+
+print('%s %s is %s years old\n'%(first_name, surname, age))
+
+
+first_name="Darsh"
+surname="Jhunjhunwal"
+age=7
+# My name is Darsh Jhunjhunwal and I'm 7 years old.
+darsh=first_name,surname,age
+print('My name is %s %s and I\'m %s years old\n'%(darsh) )
+print('My name is %s %s and I\'m %s years old\n'%(first_name,surname,age) )
+
