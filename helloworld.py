@@ -141,3 +141,35 @@ friend_age=[7,10,37,7,7]
 print(friend_names)
 print(friend_names[3])
 print("In 13 years ,%s will be %s years old"%(friend_names[0],friend_age[0]+13))
+
+friend_names[3]='Aarav'
+friend_age[3]=6
+print(friend_names,friend_age, '\n')
+
+friend_names[4]='Tanmay'
+friend_age[4]=8
+print(friend_names,friend_age, '\n')
+
+name_and_age = [friend_names, friend_age]
+print(name_and_age[0])
+print(name_and_age[1])
+
+print(name_and_age[0][4])
+print(name_and_age[1][4])
+
+
+print(name_and_age, '\n')
+
+nested_list = [[['hi']]]
+print(nested_list[0][0][0])
+
+nested_list1 = [1,[[['hi']]]]
+print(nested_list1[1][0][0][0])
+
+nested_list2 = [[1, 'Chandan'], [[[2, 'Priya']]],[[[3, 'Darsh',4]]]]
+print(nested_list2[2][0][0][1])
+
+nested_list3 = [[[[[[[['My age is']]]]]]], [[[[[[[['7']]]]]]]]]
+my_str = nested_list3[0][0][0][0][0][0][0][0]
+age_str = nested_list3[1][0][0][0][0][0][0][0][0]
+print("[%s %s]"%(my_str, age_str))
