@@ -117,4 +117,23 @@ weekend_work = 2*2
 total_work = weekday_work + weekend_work
 print("Total work per week is %s"%total_work)
 
+def add(num1, num2, num3):
+  print(num1+num2+num3)
+
+
+add(100,200,300)
+
+def multiply(a,s,d):
+  print(a*s*d)
+
+multiply(20,30,40)
+
+# 2*3=6
+# 2*30=60
+# 20*3=60
+# 20*30=600
+# 20*30*1=600
+# 20*30*10=6000
+
+multiply(9999999999999999999999999999999999999999999999,9999999999999999999999999999999999999999999999999999999999,999999999999999999999999999999999999999999999999999999)
 
