@@ -107,3 +107,14 @@ darsh=first_name,surname,age
 print('My name is %s %s and I\'m %s years old\n'%(darsh) )
 print('My name is %s %s and I\'m %s years old\n'%(first_name,surname,age) )
 
+print("5*3",5*3)
+print("2*2",2*2)
+print("15+4",15+4)
+print("Total hours in a week", 5*3 + 2*2, "hours")
+
+weekday_work = 5*4
+weekend_work = 2*2
+total_work = weekday_work + weekend_work
+print("Total work per week is %s"%total_work)
+
+
