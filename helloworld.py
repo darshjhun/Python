@@ -259,5 +259,25 @@ t.forward(50)
 t.hideturtle()
 
 
-input("Press enter key to exit...")
+# input("Press enter key to exit...")
 # t.circle(50)
+
+def add(a,s,d):
+    print(a,s,d)
+
+add(5,+6,+8)
+
+# input("Press enter key to exit...")
+t.clear()
+t.color('black')
+
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.hideturtle
+t.color('black')
