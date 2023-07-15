@@ -1,3 +1,4 @@
+import turtle
 print("Hello Darsh")
 
 print("8-4 = ", 8-4)
@@ -198,10 +199,10 @@ print("['%s %s %s']" % (my_str, my_is, my_age))
 
 print("['My age is 7']")
 
-friend_names=['Tanmay','Chandan','Priya','Shree','Akhaj']
+friend_names = ['Tanmay', 'Chandan', 'Priya', 'Shree', 'Akhaj']
 print(friend_names, '\n')
 
-friend_names.append('Aarav') 
+friend_names.append('Aarav')
 print(friend_names, '\n')
 
 friend_names.append('Advik')
@@ -212,3 +213,51 @@ print(friend_names, '\n')
 
 del friend_names[5]
 print(friend_names, '\n')
+
+t = turtle.Pen()
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+# input("Press enter key to exit...")
+t.reset()
+t.backward(100)
+t.left(90)
+t.up()
+t.forward(30)
+t.right(90)
+t.down()
+t.forward(100)
+t.hideturtle()
+# input("Press enter key to exit...")
+t.reset()
+t.backward(100)
+t.up()
+t.left(90)
+t.forward(50)
+t.right(90)
+t.down()
+t.forward(100)
+t.backward(20)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(20)
+t.right(90)
+t.forward(50)
+t.left(90)
+t.forward(20)
+t.left(90)
+t.forward(50)
+t.right(90)
+t.forward(20)
+t.right(90)
+t.forward(50)
+t.hideturtle()
+
+
+input("Press enter key to exit...")
+# t.circle(50)
