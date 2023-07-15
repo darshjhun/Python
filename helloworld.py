@@ -198,3 +198,17 @@ print("['%s %s %s']" % (my_str, my_is, my_age))
 
 print("['My age is 7']")
 
+friend_names=['Tanmay','Chandan','Priya','Shree','Akhaj']
+print(friend_names, '\n')
+
+friend_names.append('Aarav') 
+print(friend_names, '\n')
+
+friend_names.append('Advik')
+print(friend_names, '\n')
+
+del friend_names[0]
+print(friend_names, '\n')
+
+del friend_names[5]
+print(friend_names, '\n')
