@@ -252,7 +252,7 @@ t.left(90)
 t.forward(20)
 t.left(90)
 t.forward(50)
-t.right(90)
+t.right(90) 
 t.forward(20)
 t.right(90)
 t.forward(50)
@@ -282,6 +282,9 @@ t.forward(50)
 t.left(90)
 t.hideturtle
 t.color('black')
+
+t.reset()
+t.circle(100`12`)
 
 input("Press enter key to exit...")
 

@@ -1,3 +1,4 @@
+import turtle
 print('hello world')
 
 friend_names = ['Akshaj', 'Jatin', 'Shree', 'Aarav', 'Kabeer']
@@ -33,4 +34,86 @@ token_map = {
     3: 'Priya'
 }
 
-print(token_map[token_number])
+print(token_map[2])
+
+
+t = turtle.Pen()
+t.shape('turtle')
+t.speed(0)
+t.forward(50000)
+t.backward(50000)
+t.clear()
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.hideturtle()
+
+t.reset()
+
+
+t.backward(100)
+t.up()
+t.left(90)
+t.forward(50)
+t.right(90)
+t.down()
+t.forward(100)
+t.backward(20)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(20)
+t.right(90)
+t.forward(50)
+t.left(90)
+t.forward(20)
+t.left(90)
+t.forward(50)
+t.right(90)
+t.forward(20)
+t.right(90)
+t.forward(50)
+t.hideturtle()
+t.reset()
+
+
+t.backward(100)
+t.left(90)
+t.up()
+t.forward(30)
+t.down()
+t.right(90)
+t.forward(100)
+t.hideturtle()
+t.reset()
+t.circle(50)
+t.hideturtle()
+t.reset()
+t.color('blue')
+t.circle(50)
+t.reset()
+
+t.circle(50)
+t.fillcolor('red')
+t.begin_fill()
+t.circle(50)
+t.end_fill()
+input("Press enter key to exit...")
+
+number1 = float(input("Give number 1: "))
+number2 = float(input("Give number 2: "))
+print("Sum of %f and %f = %f" % (number1, number2, number1+number2))
+
+name = input("Give me your name:")
+if name=="Darsh" :
+    print("You are Handsome")
+    print("You are smart")
+    print("You are dynamic")
+else:
+    print("%s is such a fool!" % name)
+
+
