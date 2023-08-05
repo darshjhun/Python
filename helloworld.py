@@ -283,8 +283,6 @@ t.left(90)
 t.hideturtle
 t.color('black')
 
-t.reset()
-t.circle(100`12`)
 
 input("Press enter key to exit...")
 
