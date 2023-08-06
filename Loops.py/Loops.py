@@ -52,3 +52,20 @@ for x in range(0,5):
      print("%s will be %s years old after fifteen years\n"% (friend_names[x],friend_age[x]+15))
 
 
+
+
+for y in range(1,21):
+    print("\nTable of %d"%y)
+    print("%dx1=%d"%(y,y*1))
+    print("%dx2=%d"%(y,y*2))
+    print("%dx3=%d"%(y,y*3))
+    print("%dx4=%d"%(y,y*4))
+    print("%dx5=%d"%(y,y*5))
+    print("%dx6=%d"%(y,y*6))
+    print("%dx7=%d"%(y,y*7))
+    print("%dx8=%d"%(y,y*8))
+    print("%dx9=%d"%(y,y*9))
+    print("%dx10=%d"%(y,y*10))
+    # for x in range(1,11):
+    #     print("%dx%d=%d"%(y,x,y*x))
+
