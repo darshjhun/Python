@@ -1,3 +1,6 @@
+# Author: Darsh Jhunjhunwal
+# Date: 06-08-2023
+# Bio: I'm 7 years old. I like to do programming
 import turtle
 print('hello world')
 
@@ -102,7 +105,7 @@ t.fillcolor('red')
 t.begin_fill()
 t.circle(50)
 t.end_fill()
-input("Press enter key to exit...")
+#input("Press enter key to exit...")
 
 number1 = float(input("Give number 1: "))
 number2 = float(input("Give number 2: "))

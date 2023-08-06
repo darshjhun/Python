@@ -1,3 +1,6 @@
+# Author: Darsh Jhunjhunwal
+# Date: 06-08-2023
+# Bio: I'm 7 years old. I like to do programming
 import turtle
 print("Hello Darsh")
 
@@ -284,5 +287,14 @@ t.hideturtle
 t.color('black')
 
 
-input("Press enter key to exit...")
+# input("Press enter key to exit...")
+
+name = input("Give me your name:")
+if name=="Darsh" :
+    print("You are Handsome")
+    print("You are smart")
+    print("You are dynamic")
+else:
+    print("%s is such a fool!" % name)
+
 
