@@ -143,9 +143,9 @@ multiply(20, 30, 40)
 # 20*30*1=600
 # 20*30*10=6000
 
-
 friend_names = ['Akshaj sinha', 'Priya jhunjhunwal',
                 'Chandan jhunjhunwal', 'Shree', 'Aayush']
+
 friend_age = [7, 10, 37, 7, 7]
 print(friend_names)
 print(friend_names[3])
