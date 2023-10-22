@@ -107,8 +107,8 @@
 # t.end_fill()
 # #input("Press enter key to exit...")
 
-# number1 = float(input("Give number 1: "))
-# number2 = float(input("Give number 2: "))
+# number1= float(input("Give number 1: "))
+# number2 = float(input("Give n umber 2: "))
 # print("Sum of %f and %f = %f" % (number1, number2, number1+number2))
 
 # name = input("Give me your name:")
