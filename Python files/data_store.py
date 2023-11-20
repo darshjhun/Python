@@ -7,8 +7,8 @@ from gettext import install
 
 import pip
 
-superstore_1 = pd.read_csv(r"C:\Users\chand\OneDrive\Desktop\Python\Python files\content\SampleSuperstore.csv")
-superstore_2 = pd.read_csv(r"C:\Users\chand\OneDrive\Desktop\Python\Python files\content\inventory.csv")
+superstore_1 = pd.read_csv(r"/Users/darshj/Workspace/Python/Python files/content/SampleSuperstore.csv")
+superstore_2 = pd.read_csv(r"/Users/darshj/Workspace/Python/Python files/content/inventory.csv")
 # Preview first 5 rows of data set
 superstore_1.head()
 
